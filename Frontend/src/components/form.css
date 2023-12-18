@@ -1,0 +1,48 @@
+#form form {
+    width: 100%;
+    max-width: 32rem; /* Or whatever width you prefer */
+    margin: auto;
+  }
+ 
+ 
+   
+  #form  button {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px auto;
+    border-radius: 5px; 
+    border: none;
+    background: #77beeb; 
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(10, 11, 12);
+    }
+    #form  button:hover {
+    background: #054e70;
+    }
+   
+    #form label {
+        padding: 0 20px;
+        
+        vertical-align: middle;
+        }
+
+        #form input {
+            padding: 8px;
+            width: 250px;
+            vertical-align: middle;
+            border-radius: 0.25em;
+            }
+          
+            #form  select, .children, .gender, .bdate-block {
+            width: calc(50% + 26px);
+            padding: 5px 0;
+            border-radius: 0.25em;
+            }
+    
+      
+            #form .contain {
+                height: 50px;
+                width: 500px;
+                
+              }
